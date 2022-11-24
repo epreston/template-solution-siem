@@ -8,7 +8,7 @@ Security information and event management (SIEM) technology supports threat dete
 
 ## Server Deployment
 
-This is the centralised log server and log management web interface. This is composed of Elasticsearch, Logstash, and Kibana, collectively known as ELK. This configuration will be equivalent to the ELK stack image from https://github.com/spujadas/elk-docker using one of the following options.
+This is the centralised log server and log management web interface. This is composed of Elasticsearch, Logstash, and Kibana, collectively known as ELK. The base configuration will be equivalent to the ELK stack image from https://github.com/spujadas/elk-docker using one of the following options.
 
 - [Docker](docs/server-docker-deploy.md)
 - [AWS](docs/server-aws-deploy.md)
@@ -17,7 +17,7 @@ This is the centralised log server and log management web interface. This is com
 
 ## Client Deployment
 
-OpenTelemetry defines three flavors of telemetry — distributed traces, metrics, and logs. This component is the log implementation of "instrumentation and observability" for infrastructure.
+OpenTelemetry defines three flavors of telemetry — distributed traces, metrics, and logs. This component is the local implementation of "instrumentation and observability" for infrastructure. This may be software component (Filebeat and Winlogbeat) or configuration which forwards information to the server.
 
 - [Linux](docs/client-linux-deploy.md)
 - [Windows](docs/client-windows-deploy.md)
@@ -26,7 +26,7 @@ OpenTelemetry defines three flavors of telemetry — distributed traces, metrics
 ## Getting Started
 
 ```sh
-
+Point your browser to http://<your-elk-server-ip-here>:5601
 ```
 
 ## References
