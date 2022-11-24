@@ -17,7 +17,7 @@ This is the centralised log server and log management web interface. This is com
 
 ## Client Deployment
 
-OpenTelemetry defines three flavors of telemetry — distributed traces, metrics, and logs. This component is the local implementation of "instrumentation and observability" for infrastructure. This may be software component (Filebeat and Winlogbeat) or configuration which forwards information to the server.
+OpenTelemetry defines three flavors of telemetry — distributed traces, metrics, and logs. This component is the local implementation of "instrumentation and observability" for infrastructure. This may be a software component (Filebeat and Winlogbeat) or configuration which forwards information to the server.
 
 - [Linux](docs/client-linux-deploy.md)
 - [Windows](docs/client-windows-deploy.md)
