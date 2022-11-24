@@ -36,10 +36,12 @@ OpenTelemetry defines three flavors of telemetry — distributed traces, metrics
 | Elasticsearch             | https://github.com/elastic/elasticsearch                                      |
 | Logstash                  | https://github.com/elastic/logstash                                           |
 | Kibana                    | https://github.com/elastic/kibana                                             |
-| Docker                    | https://www.docker.com/                                                       |
 | Filebeat and Winlogbeat   | https://www.elastic.co/downloads/beats/                                       |
 | Microsoft Security Events | https://www.microsoft.com/en-us/download/details.aspx?id=50034                |
 |                           | https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/default.aspx |
+| Docker                    | https://www.docker.com/                                                       |
+|                           | https://github.com/phusion/baseimage-docker                                   |
+| Ubantu                    | https://ubuntu.com/download/server                                            |
 
 ## License
 
