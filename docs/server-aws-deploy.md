@@ -47,7 +47,7 @@ Confirm Elasticsearch Service is Working
 systemctl status elasticsearch.service
 
 # Access JSON interface
-curl https://<your-kibana-server-ip-here>:9200
+curl https://<your-elk-server-ip-here>:9200
 ```
 
 Install Kibana
