@@ -15,7 +15,9 @@ This is the centralised log server and log management web interface. This is com
 - [Azure](docs/server-azure-deploy.md)
 - [Manual](docs/server-manual-deploy.md)
 
-## Client Deployment and Event Forwarding
+## Client Deployment
+
+OpenTelemetry defines three flavors of telemetry — distributed traces, metrics, and logs. This component is the log implementation of "instrumentation and observability" for infrastructure.
 
 - [Linux](docs/client-linux-deploy.md)
 - [Windows](docs/client-windows-deploy.md)
@@ -29,24 +31,15 @@ This is the centralised log server and log management web interface. This is com
 
 ## References
 
-Elasticsearch
-https://github.com/elastic/elasticsearch
-
-Logstash
-https://github.com/elastic/logstash
-
-Kibana
-https://github.com/elastic/kibana
-
-Docker
-https://www.docker.com/
-
-Filebeat and Winlogbeat
-https://www.elastic.co/downloads/beats/
-
-Microsoft Security Events
-https://www.microsoft.com/en-us/download/details.aspx?id=50034
-https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/default.aspx
+| Item                      | Reference                                                                     |
+| ------------------------- | ----------------------------------------------------------------------------- |
+| Elasticsearch             | https://github.com/elastic/elasticsearch                                      |
+| Logstash                  | https://github.com/elastic/logstash                                           |
+| Kibana                    | https://github.com/elastic/kibana                                             |
+| Docker                    | https://www.docker.com/                                                       |
+| Filebeat and Winlogbeat   | https://www.elastic.co/downloads/beats/                                       |
+| Microsoft Security Events | https://www.microsoft.com/en-us/download/details.aspx?id=50034                |
+|                           | https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/default.aspx |
 
 ## License
 
