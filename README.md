@@ -45,4 +45,4 @@ Point your browser to http://<your-elk-server-ip-here>:5601
 
 ## License
 
-See [License](LICENSE).
+This project is released under the MIT [License](LICENSE).
